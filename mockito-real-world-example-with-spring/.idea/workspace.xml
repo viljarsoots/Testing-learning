@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b07b9da2-4dd3-484f-be92-628b16bf4b84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mocitocourse/src/test/java/business/TodoBusinessImplMockitoInjectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mocitocourse/src/test/java/mocikto/HamcretsMatchersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_9_0_rc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/api/in28minutes-mockito-example-business-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/api/src/main/java/com/in28minutes/example/layering/business/api/client/ClientBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/in28minutes-mockito-example-business-impl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/business/client/ClientBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/business/client/ClientBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/data/client/ClientDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/data/client/CollateralDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/data/client/ProductDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/data/client/ProductDOStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/Amount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/AmountImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/ClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/ClientType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/Collateral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/CollateralImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/CollateralType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/ProductImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/com/example/mock/model/client/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/main/java/com/in28minutes/example/layering/business/impl/client/ClientBOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/test/java/com/in28minutes/example/layering/business/client/ClientBOMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/impl/src/test/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/in28minutes-mockito-example-business.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/api/in28minutes-mockito-example-data-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/api/src/main/java/com/in28minutes/example/layering/data/api/client/ClientDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/api/src/main/java/com/in28minutes/example/layering/data/api/client/CollateralDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/api/src/main/java/com/in28minutes/example/layering/data/api/client/ProductDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/impl/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/impl/in28minutes-mockito-example-data-impl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/impl/src/main/java/com/in28minutes/example/layering/data/impl/client/ProductDODummyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/in28minutes-mockito-example-data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/in28minutes-mockito-example-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/api/client/Amount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/api/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/api/client/ClientType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/api/client/Collateral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/api/client/CollateralType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/api/client/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/api/client/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/api/client/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/impl/client/AmountImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/impl/client/ClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/impl/client/CollateralImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/in28minutes/example/layering/model/impl/client/ProductImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/real-world-mockito-example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/src/main/java/business/TodoBusinessImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/src/main/java/business/TodoBusinessImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/src/main/java/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/src/main/java/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/src/test/java/business/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/src/test/java/business/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/src/test/java/business/TodoBusinessImplMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/src/test/java/business/TodoBusinessImplMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/src/test/java/service/TodoServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/src/test/java/service/TodoServiceStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/target/classes/business/TodoBusinessImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/target/classes/business/TodoBusinessImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/target/classes/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/target/classes/service/TodoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/target/test-classes/business/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/target/test-classes/business/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/target/test-classes/business/TodoBusinessImplMockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/target/test-classes/business/TodoBusinessImplMockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mocitocourse/target/test-classes/service/TodoServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mocitocourse/target/test-classes/service/TodoServiceStub.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZyjvipDLU0i0ecvFaixqpyDuHG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in in28minutes-mockito-example-business-impl">
+    <configuration name="All in in28minutes-mockito-example-business-impl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="in28minutes-mockito-example-business-impl" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientBOMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="in28minutes-mockito-example-business-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.example.layering.business.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.in28minutes.example.layering.business.client" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.example.layering.business.client.ClientBOMockitoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in in28minutes-mockito-example-business-impl" />
+        <item itemvalue="JUnit.ClientBOMockitoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b07b9da2-4dd3-484f-be92-628b16bf4b84" name="Default Changelist" comment="" />
+      <created>1585818460608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585818460608</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,11 +1,16 @@
 package business;
 
+import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 
 import java.util.List;
 
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyInt;
+import static org.mockito.Matchers.isNotNull;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -40,7 +45,29 @@ public class ListTest {
         List listMock = mock(List.class);
         when(listMock.get(anyInt())).thenThrow(new RuntimeException("I am a nasty EXCEPTION"));
         listMock.get(0);
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void mockList_mixingUp(){
+        List listMock = mock(List.class);
+        when(listMock.subList(anyInt(),5)).thenThrow(new RuntimeException("I am a nasty EXCEPTION"));
+        listMock.get(0);
+    }
+
+
+    @Test
+    public void mockListGet_BDD(){
+        //Given
+        List listMock = mock(List.class);
+        given(listMock.get(0)).willReturn("Hello World");
+
+        //When
+        String firstElement = (String) listMock.get(0);
+
+        // Then
+        assertThat( listMock.get(0), CoreMatchers.<Object>is("Hello World"));
 
 
     }
+
 }
